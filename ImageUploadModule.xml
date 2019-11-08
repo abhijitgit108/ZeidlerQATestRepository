@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZeidlerQASuite" parallel="false">
+    
+  <test name="ImageUploadModuleTestCases">
+     <parameter name="browser" value="chrome"/>  
+    
+    <classes>
+        
+      <class name="testcases.Verify_Upload_MultipleImages"/>
+      <class name="testcases.Verify_Upload_SingleImage"/>
+      
+    </classes>
+    
+  </test> <!-- ImageUploadModuleTestCases -->
+</suite> <!-- ZeidlerQASuite -->
